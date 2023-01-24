@@ -1,0 +1,23 @@
+.header{
+  background-color: $c-white;
+  height: 115px;
+  @include device( phone ){
+    height: 115px / 2;
+  }
+  @include device( tablet ){
+
+  }
+  .container_header {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.header_brand{
+  .header_brand_img {}
+}
+.header_search{
+  .header_search_input {}
+}
+.header_login{}
