@@ -75,7 +75,7 @@ table {
   }
 }
 .btn {
-  padding: 12px 16px;
+  padding: 4px 10px;
 }
 
 .header {
@@ -91,6 +91,23 @@ table {
   align-items: center;
   display: flex;
   justify-content: space-around;
+}
+
+.header_search {
+  padding: 4px 10px;
+  background-color: #F5F5F5;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.header_search .header_search_input {
+  border: none;
+  background-color: #F5F5F5;
+}
+
+.header_login .btn_login {
+  background-color: #ffffff;
+  border: 1px solid #2A7AE4;
+  color: #2A7AE4;
 }
 
 body {
