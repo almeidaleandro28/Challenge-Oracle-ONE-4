@@ -6,12 +6,13 @@
   position: relative;
   width: 1200px;
   @include device(phone){
-    max-width: 540px;
+    max-width: 95%;
   }
   @include device(tablet){
-    max-width: 768px;
+    max-width: 90%;
   }
   @include device(large_dekstop){
+    max-width: 90%;
   }
 }
 

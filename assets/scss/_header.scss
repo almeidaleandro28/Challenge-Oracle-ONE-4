@@ -1,6 +1,9 @@
 .header{
   background-color: $c-white;
   height: 115px;
+  position: sticky;
+  top: 0;
+  transition: .4s linear;
   @include device( phone ){
     height: 115px / 2;
   }
