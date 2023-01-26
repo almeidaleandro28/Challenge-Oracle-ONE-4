@@ -84,9 +84,30 @@ table {
   padding: 4px 10px;
 }
 
+.h1,
+.h2,
+.h3 {
+  text-transform: capitalize;
+}
+
+.h1 {
+  font-size: 2.441rem;
+}
+
+.h2 {
+  font-size: 1.953rem;
+}
+
+.h3 {
+  font-size: 1.563rem;
+}
+
 .header {
   background-color: #ffffff;
   height: 115px;
+  position: sticky;
+  top: 0;
+  transition: 0.4s linear;
 }
 @media screen and (max-width: 576px) {
   .header {

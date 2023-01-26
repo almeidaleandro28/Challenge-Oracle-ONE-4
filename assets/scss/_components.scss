@@ -19,3 +19,22 @@
 .btn {
   padding: 4px 10px;
 }
+
+// titles
+.h1,
+.h2,
+.h3 {
+	text-transform: capitalize;
+}
+
+.h1 {
+  font-size: map-get($f-font-size,  "big");
+}
+
+.h2 {
+  font-size: map-get($f-font-size,  "medium");
+}
+
+.h3 {
+  font-size: map-get($f-font-size,  "small");
+}
