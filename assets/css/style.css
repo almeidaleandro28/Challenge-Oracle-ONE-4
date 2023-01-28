@@ -153,10 +153,23 @@ a {
   height: 250px;
 }
 .hero .container_hero {
+  justify-content: flex-end;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
 }
 
+.hero_header {
+  margin-bottom: 1rem;
+}
+
+.hero_content {
+  margin-bottom: 1rem;
+}
+
+.hero_footer {
+  margin-bottom: 1rem;
+}
 .hero_footer .hero_footer_btn {
   background-color: #2A7AE4;
   color: #ffffff;

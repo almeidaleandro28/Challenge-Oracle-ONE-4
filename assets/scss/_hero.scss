@@ -7,18 +7,24 @@
   color: $c-white;
   height: 250px;
   .container_hero{
-    
+    justify-content: flex-end;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
   }
   
 }
 
-.hero_header {}
+.hero_header {
+  margin-bottom: 1rem;
+}
 
-.hero_content {}
+.hero_content {
+  margin-bottom: 1rem;
+}
 
 .hero_footer {
+  margin-bottom: 1rem;
   .hero_footer_btn{
     background-color: $c-blue;
     color: $c-white;
