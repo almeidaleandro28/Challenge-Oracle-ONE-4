@@ -1,10 +1,12 @@
 @import "./responsive";
 
 .container {
+  height: 100%;
   margin: 0 auto;
   padding: 1px 1px;
   position: relative;
   width: 1200px;
+
   @include device(phone){
     max-width: 95%;
   }
@@ -37,4 +39,9 @@
 
 .h3 {
   font-size: map-get($f-font-size,  "small");
+}
+
+// links
+a {
+	text-decoration: none;
 }

@@ -4,6 +4,7 @@
   position: sticky;
   top: 0;
   transition: .4s linear;
+  z-index: 1;
   @include device( phone ){
     height: 115px / 2;
   }

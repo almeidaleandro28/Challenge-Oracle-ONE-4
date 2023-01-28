@@ -1,1 +1,27 @@
-_hero.scss
+.hero {
+  background-image: url("../img/background_01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  color: $c-white;
+  height: 250px;
+  .container_hero{
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+.hero_header {}
+
+.hero_content {}
+
+.hero_footer {
+  .hero_footer_btn{
+    background-color: $c-blue;
+    color: $c-white;
+  }
+}
+
