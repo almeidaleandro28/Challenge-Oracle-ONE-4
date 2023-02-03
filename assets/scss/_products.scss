@@ -1,1 +1,29 @@
-_products.scss
+.products {
+  
+}
+
+.product {
+
+}
+
+.product_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.products_cards {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  
+}
+
+.products_card {
+  flex: 1 0 auto;
+  width: 176px;
+  padding-right: 0.5rem;
+  
+}
