@@ -3,7 +3,8 @@
 }
 
 .product {
-
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .product_header {
@@ -25,5 +26,17 @@
   flex: 1 0 auto;
   width: 176px;
   padding-right: 0.5rem;
+  .products_card_content{
+    .h3 {
+      font-weight: map-get($f-weight, "medium" );
+    }
+    p {
+      font-weight: map-get($f-weight, "bold" );
+    }
+    a {
+      font-weight: map-get($f-weight, "bold" );
+
+    }
+  }
   
 }

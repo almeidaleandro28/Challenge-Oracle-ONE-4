@@ -180,6 +180,11 @@ img {
   color: #ffffff;
 }
 
+.product {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
 .product_header {
   display: flex;
   flex-direction: row;
@@ -198,6 +203,15 @@ img {
   flex: 1 0 auto;
   width: 176px;
   padding-right: 0.5rem;
+}
+.products_card .products_card_content .h3 {
+  font-weight: 500;
+}
+.products_card .products_card_content p {
+  font-weight: 700;
+}
+.products_card .products_card_content a {
+  font-weight: 700;
 }
 
 body {
