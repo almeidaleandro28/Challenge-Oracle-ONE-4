@@ -214,6 +214,31 @@ img {
   font-weight: 700;
 }
 
+.contacts .contacts_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts_branch {
+  flex: 1 0 0;
+}
+
+.contacts_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  flex: 1 0 0;
+}
+.contacts_info a {
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 0.5;
+  margin-top: 0.5;
+}
+
+.contacts_form {
+  flex: 1 0 0;
+}
 body {
   color: #000000;
   background-color: #ffffff;
