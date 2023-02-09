@@ -20,6 +20,7 @@
 
 .btn {
   padding: 4px 10px;
+  border: none;
 }
 
 // titles
@@ -50,4 +51,22 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+
+// form
+label {
+  font-weight: map-get($f-weight, "normal" );
+}
+
+textarea {
+  border: none;
+}
+
+input {
+  border: none;
+}
+
+// class
+.bg-white {
+  background-color: $c-white;
 }

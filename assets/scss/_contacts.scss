@@ -1,4 +1,6 @@
 .contacts {
+  background-color: $c-blue_light;
+  padding: 1rem 0;
   .contacts_container {
     display: flex;
     flex-direction: row;
@@ -19,16 +21,35 @@
   a {
     color: $c-black;
     font-weight: map-get($f-weight, "medium");
-    margin-bottom: 0.5;
-    margin-top: 0.5;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    text-transform: capitalize;
   }
 }
 
 .contacts_form {
   flex: 1 0 0;
-  .form-input{
-  
+  .form {
+    display: flex;
+    flex-direction: column;
   }
-  .form-text {}
-  .form-btn {}
 }
+
+.form-input{
+  padding: 1rem 0;
+  display: flex;
+}
+
+.form-text {
+  height: 82px;
+  .textarea {
+    width: 100%;
+  }
+}
+
+  .form-bt {
+    .btn {
+      background-color: $c-blue;
+      color: $c-white;
+    }
+  }

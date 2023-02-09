@@ -83,6 +83,7 @@ table {
 
 .btn {
   padding: 4px 10px;
+  border: none;
 }
 
 .h1,
@@ -110,6 +111,22 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+
+label {
+  font-weight: 400;
+}
+
+textarea {
+  border: none;
+}
+
+input {
+  border: none;
+}
+
+.bg-white {
+  background-color: #ffffff;
 }
 
 .header {
@@ -214,6 +231,10 @@ img {
   font-weight: 700;
 }
 
+.contacts {
+  background-color: #EAF2FD;
+  padding: 1rem 0;
+}
 .contacts .contacts_container {
   display: flex;
   flex-direction: row;
@@ -232,13 +253,36 @@ img {
 .contacts_info a {
   color: #000000;
   font-weight: 500;
-  margin-bottom: 0.5;
-  margin-top: 0.5;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
 }
 
 .contacts_form {
   flex: 1 0 0;
 }
+.contacts_form .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  padding: 1rem 0;
+  display: flex;
+}
+
+.form-text {
+  height: 82px;
+}
+.form-text .textarea {
+  width: 100%;
+}
+
+.form-bt .btn {
+  background-color: #2A7AE4;
+  color: #ffffff;
+}
+
 body {
   color: #000000;
   background-color: #ffffff;
