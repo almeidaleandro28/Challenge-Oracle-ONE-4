@@ -8,6 +8,9 @@
 @import "./contacts";
 @import "./footer";
 
+// pages
+@import "./page/login";
+
 body {
   color: $c-black;
   background-color: $c-white;
