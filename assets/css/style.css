@@ -283,6 +283,11 @@ input {
   color: #ffffff;
 }
 
+.footer_conainer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
 body {
   color: #000000;
   background-color: #ffffff;
