@@ -1,0 +1,36 @@
+@import "../reset";
+@import "../variables";
+@import "../responsive";
+@import "../components";
+@import "../header";
+@import "../contacts";
+@import "../footer";
+
+.login{
+  background-color: $c-gray;
+  padding: 2rem 0;
+}
+
+.container_login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_header {
+  text-align: center;
+  width: 50%;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.login_email {}
+
+.login_password {}
+
+.login_btn {}

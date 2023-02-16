@@ -512,6 +512,29 @@ input {
   padding: 1rem 0;
 }
 
+.login {
+  background-color: #E5E5E5;
+  padding: 2rem 0;
+}
+
+.container_login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_header {
+  text-align: center;
+  width: 50%;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
 body {
   color: #000000;
   background-color: #ffffff;
