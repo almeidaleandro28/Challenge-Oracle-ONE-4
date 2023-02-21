@@ -526,6 +526,7 @@ input {
 
 .login_header {
   text-align: center;
+  padding: 1em 0;
   width: 50%;
 }
 
@@ -533,6 +534,24 @@ input {
   display: flex;
   flex-direction: column;
   width: 50%;
+}
+
+.login_email {
+  border: none;
+  margin-bottom: 1em;
+  padding: 1em 0;
+}
+
+.login_password {
+  border: none;
+  margin-bottom: 1em;
+  padding: 1em 0;
+}
+
+.login_btn {
+  background-color: #2A7AE4;
+  color: #ffffff;
+  padding: 1em 0;
 }
 
 body {
