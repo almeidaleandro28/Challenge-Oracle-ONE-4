@@ -141,6 +141,13 @@ input {
   aspect-ratio: 1/1;
 }
 
+.card_body .card_btn {
+  background-color: #2A7AE4;
+  color: #ffffff;
+  margin: 0.5rem 0;
+  padding: 2px 8px;
+}
+
 .header {
   background-color: #ffffff;
   height: 115px;
@@ -443,6 +450,13 @@ input {
   aspect-ratio: 1/1;
 }
 
+.card_body .card_btn {
+  background-color: #2A7AE4;
+  color: #ffffff;
+  margin: 0.5rem 0;
+  padding: 2px 8px;
+}
+
 .header {
   background-color: #ffffff;
   height: 115px;
@@ -721,6 +735,13 @@ input {
   aspect-ratio: 1/1;
 }
 
+.card_body .card_btn {
+  background-color: #2A7AE4;
+  color: #ffffff;
+  margin: 0.5rem 0;
+  padding: 2px 8px;
+}
+
 .header {
   background-color: #ffffff;
   height: 115px;
@@ -829,6 +850,10 @@ input {
   .products_header {
     flex-direction: column;
   }
+}
+.products_header .products_header_btn {
+  background-color: #2A7AE4;
+  color: #ffffff;
 }
 
 .products_content {

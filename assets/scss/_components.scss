@@ -78,6 +78,7 @@ input {
   flex-direction: column;
   position: relative;
   
+  
 }
 
 .card_header {
@@ -92,4 +93,11 @@ input {
   
   .card_title {}
   .caerd_text {}
+  .card_btn {
+    // border: 1px solid $c-black;
+    background-color: $c-blue;
+    color: $c-white;
+    margin: 0.5rem 0;
+    padding: 2px 8px;
+  }
 }
