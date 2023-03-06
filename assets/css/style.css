@@ -111,6 +111,7 @@ a {
 img {
   max-width: 100%;
   display: block;
+  height: auto;
 }
 
 label {
@@ -127,6 +128,17 @@ input {
 
 .bg-white {
   background-color: #ffffff;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_header .card_img {
+  object-fit: cover;
+  aspect-ratio: 1/1;
 }
 
 .header {
@@ -401,6 +413,7 @@ a {
 img {
   max-width: 100%;
   display: block;
+  height: auto;
 }
 
 label {
@@ -417,6 +430,17 @@ input {
 
 .bg-white {
   background-color: #ffffff;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_header .card_img {
+  object-fit: cover;
+  aspect-ratio: 1/1;
 }
 
 .header {
@@ -552,6 +576,262 @@ input {
   background-color: #2A7AE4;
   color: #ffffff;
   padding: 1em 0;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+  padding: 1px 1px;
+  position: relative;
+  width: 1200px;
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 95%;
+  }
+}
+@media screen and (min-width: 578px) and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+.btn {
+  padding: 4px 10px;
+  border: none;
+}
+
+.h1,
+.h2,
+.h3 {
+  text-transform: capitalize;
+}
+
+.h1 {
+  font-size: 2.441rem;
+}
+
+.h2 {
+  font-size: 1.953rem;
+}
+
+.h3 {
+  font-size: 1.563rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+label {
+  font-weight: 400;
+}
+
+textarea {
+  border: none;
+}
+
+input {
+  border: none;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_header .card_img {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.header {
+  background-color: #ffffff;
+  height: 115px;
+  position: sticky;
+  top: 0;
+  transition: 0.4s linear;
+  z-index: 1;
+}
+@media screen and (max-width: 576px) {
+  .header {
+    height: 115px/2;
+  }
+}
+.header .container_header {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header_search {
+  padding: 4px 10px;
+  background-color: #F5F5F5;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.header_search .header_search_input {
+  border: none;
+  background-color: #F5F5F5;
+}
+
+.header_login .btn_login {
+  background-color: #ffffff;
+  border: 1px solid #2A7AE4;
+  color: #2A7AE4;
+}
+
+.contacts {
+  background-color: #EAF2FD;
+  padding: 1rem 0;
+}
+.contacts .contacts_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts_branch {
+  flex: 1 0 0;
+}
+
+.contacts_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  flex: 1 0 0;
+}
+.contacts_info a {
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+}
+
+.contacts_form {
+  flex: 1 0 0;
+}
+.contacts_form .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  padding: 1rem 0;
+  display: flex;
+}
+
+.form-text {
+  height: 82px;
+}
+.form-text .textarea {
+  width: 100%;
+}
+
+.form-bt .btn {
+  background-color: #2A7AE4;
+  color: #ffffff;
+}
+
+.footer_conainer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.products {
+  background-color: #E5E5E5;
+}
+
+.products_header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.products_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
 }
 
 body {
