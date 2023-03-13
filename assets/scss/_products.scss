@@ -13,8 +13,9 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  .products_header_btn {
+  .card_link {
     min-width: 119px;
+    
   }
 }
 
@@ -38,7 +39,6 @@
     }
     a {
       font-weight: map-get($f-weight, "bold" );
-
     }
   }
   

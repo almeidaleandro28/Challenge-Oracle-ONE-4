@@ -21,6 +21,7 @@
 .btn {
   padding: 12px 16px;
   border: none;
+  color: $c-white;
 }
 
 // titles
@@ -45,6 +46,7 @@
 // links
 a {
 	text-decoration: none;
+  color: $c-black;
 }
 
 // img 
@@ -79,9 +81,8 @@ input {
   position: relative;
   margin-bottom: .8rem;
   margin-top: .8rem;
-  
-  
-  
+  margin-right: .8rem;  
+ 
 }
 
 .card_header {
@@ -96,13 +97,16 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
   .card_title {}
   .caerd_text {}
   .card_btn {
     // border: 1px solid $c-black;
     background-color: $c-blue;
     color: $c-white;
-   
     // padding: 2px 8px;
+  }
+  .card_link {
+    background-color: $c-white;
   }
 }
