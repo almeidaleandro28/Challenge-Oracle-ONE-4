@@ -1,0 +1,43 @@
+@import "../reset";
+@import "../variables";
+@import "../responsive";
+@import "../components";
+@import "../header";
+@import "../contacts";
+@import "../footer";
+
+.products {
+  background-color: $c-gray;
+  
+}
+
+.products_header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 2em;
+  @include device(phone){
+    flex-direction: column;
+  }
+  .products_header_btn {
+    background-color: $c-blue;
+    color: $c-white;
+  }
+}
+
+.products_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  // margin-bottom: 2em;
+  @include device(phone){
+    justify-content: center;
+  }
+  @include device(tablet){
+    
+  }
+  
+}
