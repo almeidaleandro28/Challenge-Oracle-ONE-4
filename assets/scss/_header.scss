@@ -21,17 +21,31 @@
 .header_brand{
   .header_brand_img {}
 }
+
 .header_search{
   padding: 4px 10px;
 	background-color: $c-light_gray;
   border: 1px solid #000000;
 	border-radius: 10px;
+  @include device( phone ){
+    order: 3;
+    background-color: $c-white;
+    border: 1px solid $c-white;
+  }
   .header_search_input {
     border: none;
 		background-color: $c-light_gray;
+    @include device( phone ){
+      display: none;
+
+    }
   }
 }
+
 .header_login{
+  @include device(phone){
+    order: 2;
+  }
 	.btn_login{
 		background-color: $c-white;
 		border: 1px solid $c-blue;
