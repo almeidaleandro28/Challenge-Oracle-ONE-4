@@ -126,6 +126,7 @@ textarea {
 
 input {
   border: none;
+  width: 100%;
 }
 
 .bg-white {
@@ -504,6 +505,7 @@ textarea {
 
 input {
   border: none;
+  width: 100%;
 }
 
 .bg-white {
@@ -855,6 +857,7 @@ textarea {
 
 input {
   border: none;
+  width: 100%;
 }
 
 .bg-white {
@@ -1069,6 +1072,23 @@ input {
     justify-content: center;
   }
 }
+.add_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_header {
+  width: 560px;
+  height: auto;
+}
+
+.add_content {
+  width: 560px;
+  height: auto;
+}
+
 body {
   color: #000000;
   background-color: #ffffff;
