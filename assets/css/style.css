@@ -1114,6 +1114,10 @@ input {
     justify-content: center;
   }
 }
+.add {
+  background-color: #E5E5E5;
+}
+
 .add_container {
   align-items: center;
   background-color: #E5E5E5;
