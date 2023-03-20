@@ -1104,6 +1104,7 @@ input {
 .products_header .products_header_btn {
   background-color: #2A7AE4;
   color: #ffffff;
+  min-width: 164px;
 }
 
 .products_content {
