@@ -8,7 +8,7 @@
   width: 1200px;
 
   @include device(phone){
-    max-width: 95%;
+    max-width: 100%;
   }
   @include device(tablet){
     max-width: 90%;
@@ -23,7 +23,7 @@
   border: none;
   color: $c-white;
   background-color: $c-blue;
-  min-width: 100%;
+  width: 100%;
 }
 
 .btn_primary {
@@ -63,23 +63,48 @@ img {
 }
 
 // form
+.remove-outline {
+  outline: none;
+}
+
 .form_control {
+  background-color: $c-white;
+  border-radius: 4px;
   width: 100%;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
 }
 
 .form_text {
   width: 100%;
+  height: 86px;
 }
 
 .form_select {
-  width: 100%;
+  background-color: $c-white;
+  height: 56px;
+
 }
+
+.form_input {
+  height: 100%;
+  border: none;
+}
+
 
 label {
   font-weight: map-get($f-weight, "normal" );
 }
 
 textarea {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+select {
+  background-color: $c-white;
   border: none;
   width: 100%;
 }
@@ -136,4 +161,12 @@ input {
 // margin
 .mb-2{
   margin-bottom: 16px;
+}
+
+.mt-2 {
+  margin-top: 16px;
+}
+// padding
+.pa-2 {
+  padding: 8px 0;
 }

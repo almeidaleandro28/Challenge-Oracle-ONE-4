@@ -9,19 +9,27 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  @include device( phone ){
+    
+  }
 }
 
 .add_header {
   width: 560px;
   height: auto;
+  @include device( phone){
+    width: 100%;
+  }
 }
 
 .add_content {
   width: 560px;
   height: auto;
- 
+  @include device( phone){
+    width: 100%;
+  }
 }
 
 .add_form {
-  
+  width: 100%;
 }

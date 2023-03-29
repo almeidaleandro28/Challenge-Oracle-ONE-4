@@ -13,6 +13,7 @@
   	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+
 	<header class="header">
 		<div class="container container_header">
 
@@ -47,30 +48,35 @@
 
 				<form class="form add_form">
 
-					<div class="form_control mb-2">
-						<input class="form_input" type="url" placeholder="url img">
+					<div class="form_control mb-2 mt-2">
+						<label for="img">url imagem</label>
+						<input class="form_input remove-outline" type="url" name="img" id="img" placeholder="">
 					</div>
 
-					<select class="form_select mb-2">
-						<option selected>Open this select menu</option>
+					<div class="form_select mb-2 mt-2">
+						<select class="select mb-2 remove-outline">
+						<option selected>Open this select menu categories</option>
   					<option value="1">consoles</option>
   					<option value="2">star wars</option>
   					<option value="3">others</option>
-					</select>
+						</select>
+					</div><!--end form_select-->
 
 					<div class="form_control mb-2">
-						<input class="form_input" type="text" placeholder="products'name">
+						<label for="product-name">product name</label>
+						<input class="form_input remove-outline" type="text" name="product-name" id="product-name" placeholder="">
 					</div>
 
 					<div class="form_control mb-2">
-						<input class="form_input" type="text" placeholder="price of the product">
+						<label for="img">product price</label>
+						<input class="form_input remove-outline" type="text" name="product-price" placeholder="">
 					</div>
 
 					<div class="form_text mb-2">
-						<textarea name="description" id="description" cols="15" rows="5" placeholder="product description"></textarea>
+						<textarea class="remove-outline" name="description" id="description" cols="15" rows="5" placeholder="product description"></textarea>
 					</div>
 
-					<button class="btn">add product</button>
+					<button class="btn mb-2">add product</button>
 				</form><!--end add_form-->
 
 			</div><!--end add_content-->
