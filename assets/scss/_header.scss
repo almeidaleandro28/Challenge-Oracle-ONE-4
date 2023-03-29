@@ -23,15 +23,15 @@
 }
 
 .header_search{
+  align-items: center;
   background-color: $c-light_gray;
-  border: 1px solid #000000;
+  border: none;
 	border-radius: 10px;
+  display: flex;
+  flex-grow: 0;
   height: 40px;
   width: 393px;;
-  flex-grow: 0;
   padding: 4px 10px;
-  display: flex;
-  align-items: center;
   @include device( phone ){
     order: 3;
     background-color: $c-white;
