@@ -3,18 +3,19 @@
   height: 115px;
   position: sticky;
   top: 0;
-  transition: .4s linear;
+  transition: all .4s linear;
   z-index: 1;
   @include device( phone ){
     height: 115px / 2;
-  }
-  @include device( tablet ){
-
   }
   .container_header {
     align-items: center;
     display: flex;
     justify-content: space-around;
+    @include device( tablet ){
+      justify-content: flex-start;
+      align-items: center;
+    } 
   }
 }
 
